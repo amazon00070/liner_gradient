@@ -8,7 +8,7 @@ x = []
 y = []
 for i in range(0,dianshu):
     x.append(i)
-    y.append(-8 * i + 1000 + random.random() * 20 - 10)
+    y.append(-8 * i + 1000 + random.random() * 200 - 100)
 x = np.array(x)
 y = np.array(y)
 
